@@ -527,11 +527,11 @@ img {
 }
 
 .skills__react {
-  width: 0%;
+  width: 75%;
 }
 
 .skills__php {
-  width: 0%;
+  width: 50%;
 }
 
 .skills__node {
@@ -551,7 +551,7 @@ img {
 }
 
 .skills__sketch {
-  width: 0%;
+  width: 90%;
 }
 
 .skills__photoshop {
@@ -1198,7 +1198,8 @@ img {
   }
 
   .about__info {
-    justify-content: space-between;
+    justify-content: evenly;
+    align-items: start;
   }
 
   .about__buttons {
